@@ -33,9 +33,14 @@ header {
     position: relative;
 }
 .missionStatement {
-    background-color: black;
-    text-align: center;
     position: absolute;
+    background-color: black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
 }
-
-
+.monthlyTea {
+    width: 1000px;
+    
+}
