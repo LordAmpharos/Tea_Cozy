@@ -32,6 +32,7 @@ header {
 .statementContainer {
     position: relative;
 }
+
 .missionStatement {
     position: absolute;
     background-color: black;
@@ -40,7 +41,23 @@ header {
     transform: translate(-50%, -50%);
     width: 1200px;
 }
-.monthlyTea {
+
+monthlyTea {
+    margin: 0 auto;
+    padding-top: 50px;
     width: 1000px;
-    
+    height: 700px;
+}
+
+.monthlyImageContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 15px auto;
+    width: 1000px;
+}
+
+.interiorContainer  {
+    margin: 10px;
+    width: 300px;
 }
